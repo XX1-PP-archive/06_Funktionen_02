@@ -4,15 +4,19 @@
 0. a+b / a-b/ a*b / a/b  // ergebnis c
 1. Dateneingabe + -überprüfung :: 
 2. Auswahl Rechenart :: 
-3. Fkt. Grundrechenarten :: 
+3. Fkt. Grundrechenarten :: check!
 4. Ausgabe in Konsole :: check!
 */
 
 
+
+
+
+
 // Modul: Division a / b | Test
-ausgabe(dividieren(2,2));
-ausgabe(dividieren(0,5));
-ausgabe(dividieren(5,0));
+//ausgabe(dividieren(2,2));
+//ausgabe(dividieren(0,5));
+//ausgabe(dividieren(5,0));
 function dividieren(a,b) {
     if(b==0){  // wenn b =0 dann Fehlermeldung
         return("Dividieren durch 0 nicht möglich!");
