@@ -8,9 +8,25 @@
 4. Ausgabe in Konsole :: check!
 */
 
+
+// Modul: Division a / b | Test
+ausgabe(dividieren(2,2));
+ausgabe(dividieren(0,5));
+ausgabe(dividieren(5,0));
+function dividieren(a,b) {
+    if(b==0){ 
+        return("Dividieren durch 0 nicht möglich!");
+    }
+    else{
+        return a/b;
+    }
+}
+
+
+
 // Modul: Multiplikation a * b |  Test:
-ausgabe(multiplizieren(2,2));
-ausgabe(multiplizieren(0,2));
+//ausgabe(multiplizieren(2,2));
+//ausgabe(multiplizieren(0,2));
 function multiplizieren(a,b) {
     return a * b;
 }
