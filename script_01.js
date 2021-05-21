@@ -5,6 +5,27 @@
 1. Dateneingabe + -überprüfung :: 
 2. Auswahl Rechenart :: 
 3. Fkt. Grundrechenarten :: 
-4. Ausgabe in Konsole :: 
+4. Ausgabe in Konsole :: check 
 */
 
+
+
+ausgabe (subtrahieren(2,1));
+function subtrahieren(a,b) {
+    
+    return a,b;
+}
+
+
+//ausgabe (addieren(1,2));
+function addieren(a,b) {
+      return a + b;
+}
+
+
+
+// Modul: Konsolenausgabe | Test
+//ausgabe("Hallo Welt");
+function ausgabe(outputStr) {
+console.log(outputStr);
+}
