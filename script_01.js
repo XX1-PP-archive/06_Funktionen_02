@@ -3,18 +3,18 @@
 /*
 0. a+b / a-b/ a*b / a/b  // ergebnis c
 1. Dateneingabe + -überprüfung :: 
-2. Auswahl Rechenart :: 
+2. Auswahl Rechenart :: check
 3. Fkt. Grundrechenarten :: check!
 4. Ausgabe in Konsole :: check!
 */
 
 // Modul: Rechenart auswählen | Test
-ausgabe(rechner("+",10,4));
-ausgabe(rechner("-",10,4));
-ausgabe(rechner("*",10,4));
-ausgabe(rechner("/",10,4));
-ausgabe(rechner("/",10,0));
-ausgabe(rechner("#?!",10,0));
+//ausgabe(rechner("+",10,4));
+//ausgabe(rechner("-",10,4));
+//ausgabe(rechner("*",10,4));
+//ausgabe(rechner("/",10,4));
+//ausgabe(rechner("/",10,0));
+//ausgabe(rechner("#?!",10,0));
 
 
 
