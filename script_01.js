@@ -8,6 +8,29 @@
 4. Ausgabe in Konsole :: check!
 */
 
+ausgabe(rechner(getop(),10,4));
+
+// Modul: Operand eingeben | Text
+//ausgabe(getop());
+function getop() {
+    let op = prompt("Bitte + |- |* |/ eingeben.")
+ 
+ if (isOpValid(op)) {
+     return op;
+ } else {
+     return"Bitte nochmahl!"
+ }
+ 
+ 
+    return op; 
+}
+
+function isOPValid(checkStr) {
+    return false;
+}
+
+
+
 // Modul: Rechenart auswählen | Test
 //ausgabe(rechner("+",10,4));
 //ausgabe(rechner("-",10,4));
