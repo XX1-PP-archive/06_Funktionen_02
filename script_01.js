@@ -29,19 +29,3 @@ function addieren(a,b) {
 //ausgabe("Hallo Welt");
 function ausgabe(outputStr) {
 console.log(outputStr);
-=======
-4. Ausgabe in Konsole :: check!
-*/
-
-// Modul: Addition a + b |  Test:
-//ausgabe(addieren(2,1));
-function addieren(a,b) {
-   return a + b; 
-}
-
-// Modul: Konsolenausgabe |  Test:
-//ausgabe("Hallo Welt");
-function ausgabe(outputStr) {
-    console.log(outputStr);
->>>>>>> 138667ea42fe93628715c2effe50156bd9c93285
-}
