@@ -20,7 +20,7 @@ function start() {
 function getZahl(numStr) {
     let zahl = parseInt(prompt("Bitte Zahl " + numStr + " eingeben."))
     while (isNaN(zahl)){
-        zahl = parseInt(prompt("Das ist keine Zahl. Bitte nochmal:"));
+        zahl = parseInt(prompt("Fehleingabe bitte nur Zahlen:"));
     }
     return zahl;     
 }
@@ -30,7 +30,7 @@ function getZahl(numStr) {
 function getOp() {
   let op = prompt("Bitte + | - | * | / eingeben.")
   while (!isOpValid(op)) { // solange falsche eingabe --> schleife
-      op = prompt("Bitte einen korrekten Operator eingeben!")
+      op = prompt("+   -  *  /  !")
   }
     return op ; 
 }
@@ -91,7 +91,7 @@ function dividieren(a,b) {
     if(b!=0){
         return a / b;
     } 
-    return "Divison durch 0 nicht OK!";
+    return "Du kannst dicht durch 0 teilen!";
 }
 
 // Modul: Multiplikation a * b |  Test:
@@ -125,3 +125,6 @@ function ausgabe(outputStr) {
     
     console.log(outputStr);
 }
+
+
+//ist das komplieziert
